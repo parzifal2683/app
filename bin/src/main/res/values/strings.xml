@@ -1,0 +1,133 @@
+<resources>
+	<!-- App text configuration -->
+    <string name="app_name">Academy</string>
+
+    <!--  App About Information -->
+    <string name="app_version">Версия 1.0.0</string>
+    <string name="copyright">Copyright &#169; 2018 Sokolnikovdenis \n All rights reserved</string>
+    <string name="email_address">sokolnikovdenis2683@gmail.com</string>
+
+	<!-- Parse push notification -->
+	<string name="parse_application_id">wz2ODD4DWIlg3VmekjPOqDeUupL4BcmzTyuZaH5D</string>
+	<string name="parse_client_key">man6drc3Ci2E6G0faYN77tFpAKGwlrHT75IhAZKO</string>
+
+    <!-- play store application in more apps -->
+    <string name="more_apps">https://play.google.com/store/apps/developer?id=</string>
+
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="no_phone">Устройство не поддерживает функцию вызова</string>
+    <string name="no_internet">Пожалуйста проверьте подключение интернет</string>
+    <string name="category_list">Выберите категорию</string>
+    <string name="search">Поиск товаров</string>
+	<string name="detail">Подробнее</string>
+	<string name="add">Добавить в мои заказы</string>
+	<string name="contact">Контакты</string>
+    <string name="alert">Нет связи с интернет!</string>
+    <string name="not_found">Не найден!</string>
+    <string name="number_order">Количество: </string>
+    <string name="order">Заказ</string>
+    <string name="my_order">Детализация заказа</string>
+    <string name="total_order">Всего:</string>
+    <string name="clear_order">Удалить все заказы</string>
+    <string name="clear_all_order">Вы хотите удалить все заказы?</string>
+	<string name="clear_one_order">Вы хотите удалить заказ?</string>
+	<string name="db_exist_alert">Вы хотите удалить предыдущий заказ?</string>
+	<string name="confirm">Подтверждение</string>
+	<string name="reservation">Забронировать</string>
+	<string name="your_name">Ваше имя</string>
+	<string name="address">Ваш адрес</string>
+	<string name="city">Город</string>
+	<string name="province">Регион</string>
+	<string name="email">Ваш email</string>
+	<string name="number_of_people">Кол-во людей</string>
+	<string name="phone_number">Номер телефона</string>
+	<string name="order_list">Список заказов</string>
+	<string name="send_reservation">Отправить</string>
+	<string name="form_alert">Поожалуйста заполните поля.</string>
+	<string name="sending_alert">Отправляется. Пожалуйста подождите &#8230;</string>
+	<string name="ok_alert">Ваш заказ успешно отправлен.</string>
+	<string name="failed_alert">Ваш заказ не отправлен.</string>
+	<string name="no_order">Ваша корзина пуста, пожалуйста сделайте заказ.</string>
+	<string name="check_order_later">Проверить заказ позже</string>
+	<string name="order_later">#Заказать позже</string>
+	 <string name="desc_list_item_icon">Item Icon</string>
+	<string name="no_order_menu">Нет заказов</string>
+	<string name="order_alert">У вас нет заказов</string>
+	<string name="add_comment">Коментарии(Не обязательно)</string>
+	<string name="menu_settings">Настройки</string>
+	<string name="app_info">О программе</string>
+	<string name="main_menu">Главное меню</string>
+	<string name="title_activity_home">Главная</string>
+	<string name="more">Другие приложения</string>
+	<string name="rate">Оценить</string>
+	<string-array name="main_menu_list">
+        <item >Список меню</item>
+        <item >Ваш заказ</item>
+        <item >Подтверждение</item>
+    </string-array>
+
+	<string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+	<string name="menu_product">Товары</string>
+	<string name="menu_cart">Корзина</string>
+	<string name="menu_checkout">Оплата</string>
+	<string name="menu_profile">Информация</string>
+	<string name="menu_info">Как заказать</string>
+	<string name="menu_about">О программе</string>
+	<string name="menu_share">Поделиться</string>
+	<string name="menu_contact">Контакты</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Главная</item>
+        <item>Товары</item>
+        <item>Корзина</item>
+        <item>Оплата</item>
+        <item>Информация</item>
+        <item>Как заказать</item>
+        <item>О программе</item>
+        <item>Поделиться</item>
+        <item>Контакты</item>
+        <item>Выход</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons, keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_product</item>
+        <item>@drawable/ic_cart</item>
+        <item>@drawable/ic_checkout</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_info</item>
+        <item>@drawable/ic_about</item>
+        <item>@drawable/ic_contact</item>
+        <item>@drawable/ic_exit</item>
+    </array>
+
+	<!-- Write your description about profile menu for tab 1 and tab 2 -->
+	<string name="profile_tab1">
+
+	</string>
+	<string name="profile_tab2">
+
+	</string>
+
+	<!-- Write your description about information menu for tab 1, tab 2 and tab 3 -->
+	<string name="information_tab1">
+
+	</string>
+	<string name="information_tab2">
+
+	</string>
+	<string name="information_tab3">
+
+	</string>
+
+	<!-- Write your description if order sent successfully -->
+	<string name="success_order">
+
+	</string>
+
+</resources>

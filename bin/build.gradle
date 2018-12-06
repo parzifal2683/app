@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId 'com.Academy'
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/android-support-v4.jar')
+    implementation files('libs/Parse-1.3.0.jar')
+    implementation files('libs/signpost-commonshttp4-1.2.1.2.jar')
+    implementation files('libs/signpost-core-1.2.1.2.jar')
+    implementation files('libs/signpost-jetty6-1.2.1.2.jar')
+}
+
+android {
+    lintOptions {
+        enable "ResourceType"
+    }
+}
